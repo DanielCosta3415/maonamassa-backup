@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "idCliente": 1,
+    "idProfissional": 1,
+    "categorias": ["Reforma", "Acabamento"],
+    "descricao": "Reforma completa do banheiro, troca de pisos e instalação de acabamentos.",
+    "localizacao": {
+      "rua": "Rua das Flores",
+      "bairro": "Jardim Primavera",
+      "complemento": "Apartamento 201",
+      "cep": "01234-567",
+      "numero": "101",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "latitude": -23.555771,
+      "longitude": -46.639557
+    },
+    "nota": 4.9,
+    "comentario": "Serviço excelente, muito caprichoso."
+  },
+  {
+    "id": 2,
+    "idCliente": 2,
+    "idProfissional": 1,
+    "categorias": ["Construção", "Alvenaria"],
+    "descricao": "Construção de muro no quintal, serviço rápido e limpo.",
+    "localizacao": {
+      "rua": "Av. Atlântica",
+      "bairro": "Copacabana",
+      "complemento": "Casa",
+      "cep": "22041-001",
+      "numero": "202",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "latitude": -22.967108,
+      "longitude": -43.180956
+    },
+    "nota": 4.5,
+    "comentario": "Muro perfeito, recomendo o profissional."
+  },
+  {
+    "id": 3,
+    "idCliente": 3,
+    "idProfissional": 1,
+    "categorias": ["Acabamento"],
+    "descricao": "Instalação de piso laminado no quarto.",
+    "localizacao": {
+      "rua": "Rua das Palmeiras",
+      "bairro": "Savassi",
+      "complemento": "Bloco B",
+      "cep": "30140-120",
+      "numero": "10",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "latitude": -19.933209,
+      "longitude": -43.937588
+    },
+    "nota": 4,
+    "comentario": "Ficou muito bom! Voltaria a contratar."
+  },
+  {
+    "id": 4,
+    "idCliente": 4,
+    "idProfissional": 2,
+    "categorias": ["Mecânica", "Diagnóstico"],
+    "descricao": "Troca de óleo e diagnóstico eletrônico completo.",
+    "localizacao": {
+      "rua": "Av. Batel",
+      "bairro": "Batel",
+      "complemento": "Sala 5",
+      "cep": "80420-090",
+      "numero": "1050",
+      "cidade": "Curitiba",
+      "estado": "PR",
+      "latitude": -25.441782,
+      "longitude": -49.276858
+    },
+    "nota": 5.0,
+    "comentario": "Atendimento rápido, resolveu tudo na hora."
+  },
+  {
+    "id": 5,
+    "idCliente": 5,
+    "idProfissional": 2,
+    "categorias": ["Suspensão", "Mecânica"],
+    "descricao": "Troca dos amortecedores dianteiros do carro.",
+    "localizacao": {
+      "rua": "Rua da Praia",
+      "bairro": "Centro",
+      "complemento": "Sala 302",
+      "cep": "90010-002",
+      "numero": "250",
+      "cidade": "Porto Alegre",
+      "estado": "RS",
+      "latitude": -30.032499,
+      "longitude": -51.230376
+    },
+    "nota": 4.8,
+    "comentario": "Muito bom, explicação detalhada."
+  },
+  {
+    "id": 6,
+    "idCliente": 6,
+    "idProfissional": 2,
+    "categorias": ["Motor"],
+    "descricao": "Reparo no motor, troca de correia dentada.",
+    "localizacao": {
+      "rua": "Av. Beira Mar",
+      "bairro": "Meireles",
+      "complemento": "Cobertura",
+      "cep": "60165-121",
+      "numero": "1850",
+      "cidade": "Fortaleza",
+      "estado": "CE",
+      "latitude": -3.71829,
+      "longitude": -38.542626
+    },
+    "nota": 4.9,
+    "comentario": "Motor ficou perfeito, profissional de confiança."
+  },
+  {
+    "id": 7,
+    "idCliente": 2,
+    "idProfissional": 3,
+    "categorias": ["Eletricidade"],
+    "descricao": "Instalação de novos pontos de energia e luminária.",
+    "localizacao": {
+      "rua": "Av. Atlântica",
+      "bairro": "Copacabana",
+      "complemento": "Casa",
+      "cep": "22041-001",
+      "numero": "202",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "latitude": -22.967108,
+      "longitude": -43.180956
+    },
+    "nota": 4.7,
+    "comentario": "Serviço rápido e limpo."
+  },
+  {
+    "id": 8,
+    "idCliente": 4,
+    "idProfissional": 3,
+    "categorias": ["Baixa Tensão", "Manutenção"],
+    "descricao": "Troca de disjuntores e revisão geral na rede elétrica.",
+    "localizacao": {
+      "rua": "Av. Batel",
+      "bairro": "Batel",
+      "complemento": "Sala 5",
+      "cep": "80420-090",
+      "numero": "1050",
+      "cidade": "Curitiba",
+      "estado": "PR",
+      "latitude": -25.441782,
+      "longitude": -49.276858
+    },
+    "nota": 5.0,
+    "comentario": "Muito atencioso, recomendo."
+  },
+  {
+    "id": 9,
+    "idCliente": 5,
+    "idProfissional": 3,
+    "categorias": ["Manutenção", "Eletricidade"],
+    "descricao": "Ajuste de tomadas e verificação do quadro de energia.",
+    "localizacao": {
+      "rua": "Rua da Praia",
+      "bairro": "Centro",
+      "complemento": "Sala 302",
+      "cep": "90010-002",
+      "numero": "250",
+      "cidade": "Porto Alegre",
+      "estado": "RS",
+      "latitude": -30.032499,
+      "longitude": -51.230376
+    },
+    "nota": 4.5,
+    "comentario": "Satisfeito com o trabalho realizado!"
+  },
+  {
+    "id": 10,
+    "idCliente": 3,
+    "idProfissional": 4,
+    "categorias": ["Culinária", "Eventos"],
+    "descricao": "Buffet para aniversário com menu contemporâneo.",
+    "localizacao": {
+      "rua": "Rua das Palmeiras",
+      "bairro": "Savassi",
+      "complemento": "Bloco B",
+      "cep": "30140-120",
+      "numero": "10",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "latitude": -19.933209,
+      "longitude": -43.937588
+    },
+    "nota": 5.0,
+    "comentario": "Comida deliciosa, convidado elogiou muito."
+  },
+  {
+    "id": 11,
+    "idCliente": 6,
+    "idProfissional": 4,
+    "categorias": ["Gastronomia", "Chef de Cozinha"],
+    "descricao": "Menu personalizado para casamento civil.",
+    "localizacao": {
+      "rua": "Av. Beira Mar",
+      "bairro": "Meireles",
+      "complemento": "Cobertura",
+      "cep": "60165-121",
+      "numero": "1850",
+      "cidade": "Fortaleza",
+      "estado": "CE",
+      "latitude": -3.71829,
+      "longitude": -38.542626
+    },
+    "nota": 4.9,
+    "comentario": "Ótima experiência, pratos lindos e saborosos!"
+  },
+  {
+    "id": 12,
+    "idCliente": 1,
+    "idProfissional": 4,
+    "categorias": ["Eventos"],
+    "descricao": "Organização de coffee break para reunião de negócios.",
+    "localizacao": {
+      "rua": "Rua das Flores",
+      "bairro": "Jardim Primavera",
+      "complemento": "Apartamento 201",
+      "cep": "01234-567",
+      "numero": "101",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "latitude": -23.555771,
+      "longitude": -46.639557
+    },
+    "nota": 5.0,
+    "comentario": "Todos os convidados ficaram satisfeitos."
+  },
+  {
+    "id": 13,
+    "idCliente": 5,
+    "idProfissional": 5,
+    "categorias": ["Hidráulica", "Reparos"],
+    "descricao": "Conserto de vazamento na pia do banheiro.",
+    "localizacao": {
+      "rua": "Rua da Praia",
+      "bairro": "Centro",
+      "complemento": "Sala 302",
+      "cep": "90010-002",
+      "numero": "250",
+      "cidade": "Porto Alegre",
+      "estado": "RS",
+      "latitude": -30.032499,
+      "longitude": -51.230376
+    },
+    "nota": 5.0,
+    "comentario": "Muito ágil, resolveu rápido!"
+  },
+  {
+    "id": 14,
+    "idCliente": 3,
+    "idProfissional": 5,
+    "categorias": ["Sistemas de Água", "Encanador"],
+    "descricao": "Instalação de novo registro e revisão do encanamento.",
+    "localizacao": {
+      "rua": "Rua das Palmeiras",
+      "bairro": "Savassi",
+      "complemento": "Bloco B",
+      "cep": "30140-120",
+      "numero": "10",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "latitude": -19.933209,
+      "longitude": -43.937588
+    },
+    "nota": 4.8,
+    "comentario": "Profissional detalhista, gostei do resultado."
+  },
+  {
+    "id": 15,
+    "idCliente": 2,
+    "idProfissional": 5,
+    "categorias": ["Reparos"],
+    "descricao": "Desentupimento do ralo do banheiro.",
+    "localizacao": {
+      "rua": "Av. Atlântica",
+      "bairro": "Copacabana",
+      "complemento": "Casa",
+      "cep": "22041-001",
+      "numero": "202",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "latitude": -22.967108,
+      "longitude": -43.180956
+    },
+    "nota": 4.6,
+    "comentario": "Veio rápido, serviço bem feito."
+  },
+  {
+    "id": 16,
+    "idCliente": 4,
+    "idProfissional": 6,
+    "categorias": ["Estética", "Beleza"],
+    "descricao": "Corte de cabelo e maquiagem para evento social.",
+    "localizacao": {
+      "rua": "Av. Batel",
+      "bairro": "Batel",
+      "complemento": "Sala 5",
+      "cep": "80420-090",
+      "numero": "1050",
+      "cidade": "Curitiba",
+      "estado": "PR",
+      "latitude": -25.441782,
+      "longitude": -49.276858
+    },
+    "nota": 5.0,
+    "comentario": "Adorei o penteado e a maquiagem!"
+  },
+  {
+    "id": 17,
+    "idCliente": 1,
+    "idProfissional": 6,
+    "categorias": ["Beleza", "Maquiagem"],
+    "descricao": "Maquiagem para casamento.",
+    "localizacao": {
+      "rua": "Rua das Flores",
+      "bairro": "Jardim Primavera",
+      "complemento": "Apartamento 201",
+      "cep": "01234-567",
+      "numero": "101",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "latitude": -23.555771,
+      "longitude": -46.639557
+    },
+    "nota": 4.9,
+    "comentario": "Ficou maravilhosa, superou minhas expectativas!"
+  },
+  {
+    "id": 18,
+    "idCliente": 6,
+    "idProfissional": 6,
+    "categorias": ["Cabeleireira"],
+    "descricao": "Coloração e corte moderno.",
+    "localizacao": {
+      "rua": "Av. Beira Mar",
+      "bairro": "Meireles",
+      "complemento": "Cobertura",
+      "cep": "60165-121",
+      "numero": "1850",
+      "cidade": "Fortaleza",
+      "estado": "CE",
+      "latitude": -3.71829,
+      "longitude": -38.542626
+    },
+    "nota": 5.0,
+    "comentario": "Adorei o resultado, minha cor favorita!"
+  }
+]
