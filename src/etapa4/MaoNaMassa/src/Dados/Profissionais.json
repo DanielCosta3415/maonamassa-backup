@@ -1,0 +1,203 @@
+[
+  {
+    "id": 1,
+    "nome": "Carlos Roberto",
+    "avatar": "https://i.ibb.co/SXmVVXM2/avatar1.png",
+    "categorias": ["Construção", "Alvenaria", "Reforma", "Acabamento"],
+    "biografia": "Mestre de obras com mais de 15 anos de experiência em reformas e construções. Especialista em alvenaria estrutural e acabamentos finos. Pontualidade e qualidade garantidas em cada projeto.",
+    "valorCobradoPorHora": 95.0,
+    "dataDeCriacao": "2022-03-15",
+    "pedidosConcluidos": 85,
+    "endereco": [
+      {
+        "tipo": "principal",
+        "rua": "Rua das Lajes, 123",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "cep": "01000-000"
+      }
+    ],
+    "portfolio": [
+      "https://i.ibb.co/4cvHRS7/prof1-img1.png",
+      "https://i.ibb.co/v4scWNdQ/prof1-img2.png",
+      "https://i.ibb.co/WW2VQ8g4/prof1-img3.png"
+    ],
+    "disponibilidade": [
+      { "dia": "Seg", "horarios": ["08:00", "09:00", "10:00", "11:00"] },
+      { "dia": "Ter", "horarios": ["08:00", "09:00", "10:00", "14:00"] },
+      { "dia": "Qua", "horarios": ["08:00", "09:00", "13:00", "15:00"] },
+      { "dia": "Qui", "horarios": ["07:00", "10:00", "11:00", "12:00"] },
+      { "dia": "Sex", "horarios": ["09:00", "11:00", "16:00", "17:00"] },
+      { "dia": "Sab", "horarios": ["09:00", "10:00", "11:00"] }
+    ],
+    "ultimosPedidos": [
+      {
+        "numero": "2024-001",
+        "categorias": ["Acabamento"],
+        "dataConclusao": "2024-09-01",
+        "avaliacao": 5.0,
+        "icon": "wall"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "Fernanda Lima",
+    "avatar": "https://i.ibb.co/7xxbfHgt/avatar2.png",
+    "categorias": ["Mecânica", "Motor", "Suspensão", "Diagnóstico"],
+    "biografia": "Mecânica automotiva com foco em diagnóstico eletrônico e reparos de motor. Soluções rápidas e transparentes para manter seu carro em segurança. Atendo todas as marcas e modelos.",
+    "valorCobradoPorHora": 120.0,
+    "dataDeCriacao": "2023-01-20",
+    "pedidosConcluidos": 55,
+    "endereco": [
+      {
+        "tipo": "oficina",
+        "rua": "Av. dos Motores, 456",
+        "cidade": "Campinas",
+        "estado": "SP",
+        "cep": "13000-000"
+      }
+    ],
+    "portfolio": [
+      "https://i.ibb.co/zTBfPRsj/prof2-img1.png",
+      "https://i.ibb.co/fzWV8dYW/prof2-img2.png",
+      "https://i.ibb.co/gLm5GP0L/prof2-img3.png"
+    ],
+    "disponibilidade": [
+      { "dia": "Seg", "horarios": ["09:00", "10:00", "11:00", "14:00"] },
+      { "dia": "Ter", "horarios": ["09:00", "10:00", "14:00", "15:00"] },
+      { "dia": "Qua", "horarios": ["09:00", "10:00", "11:00", "15:00"] },
+      { "dia": "Qui", "horarios": ["13:00", "14:00", "15:00", "17:00"] },
+      { "dia": "Sex", "horarios": ["08:00", "09:00", "10:00", "11:00"] },
+      { "dia": "Sab", "horarios": ["09:00", "10:00", "11:00"] }
+    ]
+  },
+  {
+    "id": 3,
+    "nome": "Guilherme Souza",
+    "avatar": "https://i.ibb.co/GK9cCpQ/avatar3.png",
+    "categorias": ["Eletricidade", "Eletricista", "Baixa Tensão", "Manutenção"],
+    "biografia": "Eletricista residencial e comercial certificado. Faço desde instalações de disjuntores e tomadas até projetos de baixa tensão. Foco em segurança e eficiência energética para sua casa ou empresa.",
+    "valorCobradoPorHora": 80.0,
+    "dataDeCriacao": "2022-05-01",
+    "pedidosConcluidos": 112,
+    "endereco": [
+      {
+        "tipo": "residencia",
+        "rua": "Rua da Corrente, 789",
+        "cidade": "Belo Horizonte",
+        "estado": "MG",
+        "cep": "30000-000"
+      }
+    ],
+    "portfolio": [
+      "https://i.ibb.co/7tNqK1Hq/prof3-img1.png",
+      "https://i.ibb.co/Cs53BrN2/prof3-img2.png",
+      "https://i.ibb.co/WWzRNDt6/prof3-img3.png"
+    ],
+    "disponibilidade": [
+      { "dia": "Seg", "horarios": ["13:00", "14:00", "15:00", "16:00"] },
+      { "dia": "Ter", "horarios": ["08:00", "09:00", "10:00", "11:00"] },
+      { "dia": "Qua", "horarios": ["08:00", "09:00", "13:00", "14:00"] },
+      { "dia": "Qui", "horarios": ["08:00", "09:00", "10:00"] },
+      { "dia": "Sex", "horarios": ["15:00", "16:00"] },
+      { "dia": "Sab", "horarios": ["10:00", "11:00", "12:00"] }
+    ]
+  },
+  {
+    "id": 4,
+    "nome": "Patrícia Nunes",
+    "avatar": "https://i.ibb.co/v6X5JDSR/avatar4.png",
+    "categorias": ["Culinária", "Chef de Cozinha", "Eventos", "Gastronomia"],
+    "biografia": "Chef de cozinha especializada em eventos e buffets personalizados. Crio menus exclusivos para aniversários, casamentos e confraternizações. Experiência em culinária contemporânea.",
+    "valorCobradoPorHora": 150.0,
+    "dataDeCriacao": "2023-08-10",
+    "pedidosConcluidos": 32,
+    "endereco": [
+      {
+        "tipo": "atendimento",
+        "rua": "Rua das Especiarias, 10",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ",
+        "cep": "20000-000"
+      }
+    ],
+    "portfolio": [
+      "https://i.ibb.co/23nMy6St/prof4-img1.png",
+      "https://i.ibb.co/y1Hrd1s/prof4-img2.png",
+      "https://i.ibb.co/Q34mv4fY/prof4-img3.png"
+    ],
+    "disponibilidade": [
+      { "dia": "Seg", "horarios": ["18:00", "19:00", "20:00"] },
+      { "dia": "Ter", "horarios": ["18:00", "19:00", "20:00"] },
+      { "dia": "Qua", "horarios": ["18:00", "19:00", "20:00"] },
+      { "dia": "Qui", "horarios": ["18:00", "19:00", "20:00"] },
+      { "dia": "Sex", "horarios": ["18:00", "19:00", "20:00"] },
+      { "dia": "Sab", "horarios": ["10:00", "11:00", "12:00"] }
+    ]
+  },
+  {
+    "id": 5,
+    "nome": "Ricardo Pereira",
+    "avatar": "https://i.ibb.co/7JFyq069/avatar5.png",
+    "categorias": ["Hidráulica", "Encanador", "Reparos", "Sistemas de Água"],
+    "biografia": "Encanador profissional com foco em soluções rápidas para vazamentos, desentupimentos e instalação de sistemas hidráulicos residenciais. Atendo emergências 24h em dias úteis.",
+    "valorCobradoPorHora": 75.0,
+    "dataDeCriacao": "2021-11-25",
+    "pedidosConcluidos": 145,
+    "endereco": [
+      {
+        "tipo": "principal",
+        "rua": "Rua do Cano, 321",
+        "cidade": "Curitiba",
+        "estado": "PR",
+        "cep": "80000-000"
+      }
+    ],
+    "portfolio": [
+      "https://i.ibb.co/BHpxRJDv/prof5-img1.png",
+      "https://i.ibb.co/cSzrD8PG/prof5-img2.png",
+      "https://i.ibb.co/HDBTjTby/prof5-img3.png"
+    ],
+    "disponibilidade": [
+      { "dia": "Seg", "horarios": ["08:00", "09:00", "10:00", "11:00"] },
+      { "dia": "Ter", "horarios": ["08:00", "09:00", "10:00", "11:00"] },
+      { "dia": "Qua", "horarios": ["08:00", "09:00", "10:00", "11:00"] },
+      { "dia": "Qui", "horarios": ["08:00", "09:00", "10:00"] },
+      { "dia": "Sex", "horarios": ["09:00", "10:00", "11:00"] },
+      { "dia": "Sab", "horarios": ["09:00", "10:00", "11:00"] }
+    ]
+  },
+  {
+    "id": 6,
+    "nome": "Simone Alves",
+    "avatar": "https://i.ibb.co/WWMwVpr4/avatar6.png",
+    "categorias": ["Beleza", "Cabeleireira", "Estética", "Maquiagem"],
+    "biografia": "Cabeleireira e maquiadora com ênfase em colorimetria e penteados para festas. Atendimento em domicílio ou no meu estúdio particular. Agende sua transformação!",
+    "valorCobradoPorHora": 110.0,
+    "dataDeCriacao": "2023-04-05",
+    "pedidosConcluidos": 68,
+    "endereco": [
+      {
+        "tipo": "estudio",
+        "rua": "Rua da Moda, 50",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "cep": "04000-000"
+      }
+    ],
+    "portfolio": [
+      "https://i.ibb.co/4wCQ2jkk/prof6-img1.png",
+      "https://i.ibb.co/TqKr1nPb/prof6-img2.png",
+      "https://i.ibb.co/YBG2MyWw/prof6-img3.png"
+    ],
+    "disponibilidade": [
+      { "dia": "Seg", "horarios": ["09:00", "10:00", "11:00"] },
+      { "dia": "Ter", "horarios": ["14:00", "15:00", "16:00", "17:00"] },
+      { "dia": "Qua", "horarios": ["09:00", "10:00", "11:00", "12:00"] },
+      { "dia": "Qui", "horarios": ["09:00", "10:00", "11:00"] },
+      { "dia": "Sex", "horarios": ["13:00", "14:00", "15:00"] },
+      { "dia": "Sab", "horarios": ["09:00", "10:00", "11:00"] }
+    ]
+  }
+]
