@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Tela Listagem Profissionais - Mão na Massa",
+    "slug": "tela-listagem-profissionais-mao-na-massa",
+    "scheme": "maonamassa-pros",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "newArchEnabled": true,
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
